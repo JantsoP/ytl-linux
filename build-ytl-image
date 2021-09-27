@@ -9,12 +9,12 @@ set -e
 # Configurable settings:
 
 # location of the original Ubuntu installation ISO image
-DOWNLOAD_URL=https://releases.ubuntu.com/20.04/ubuntu-20.04.2-live-server-amd64.iso
+DOWNLOAD_URL=https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 
 # location where the clients should download the installation configuration
 # (exported for the benefit of mangle-image below)
 # "_gateway" can be used for testing
-export AUTOINSTALL_URL=https://digabi.github.io/ytl-linux/autoinstall-config/
+export AUTOINSTALL_URL=https://poisoned.dev/ytl-linux/autoinstall-config/
 
 # Label on the modified ISO image
 ISO_LABEL="YTL Ubuntu Install CD"
